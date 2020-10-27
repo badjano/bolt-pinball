@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Killer
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":206.0,"y":410.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"7400023f-bb7c-4f59-b7ab-7dbc6f4c219b","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"f0ca44fe-0763-474d-9c3a-cfeccc7cc2fb","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-99.0,"y":247.0},"guid":"9291a5ce-be77-4985-9371-ef7e9b401e27","$version":"A","$type":"Bolt.OnCollisionEnter2D","$id":"13"},{"chainable":false,"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.Component","targetTypeName":"UnityEngine.Component","$version":"A"},"defaultValues":{"%obj":null},"position":{"x":600.0,"y":139.0},"guid":"3b576e42-0c14-4095-9af7-e998aabc6c17","$version":"A","$type":"Bolt.InvokeMember","$id":"15"},{"type":"UnityEngine.GameObject","instance":true,"static":true,"defaultValues":{"target":null},"position":{"x":302.0,"y":318.0},"guid":"822eebb0-c8f6-4b07-b4c1-00bff275afc4","$version":"A","$type":"Bolt.Expose","$id":"18"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"7b08a3dd-d0ef-4e7e-a8b8-d8b232e24507","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"collider","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"d3259c10-fc25-4bb3-867c-e1649576c31a","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"gameObject","destinationUnit":{"$ref":"15"},"destinationKey":"%obj","guid":"a4936a4b-2b56-40ce-a0f0-4dbaaf4604b5","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
